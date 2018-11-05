@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .home-wrapper {
@@ -50,10 +52,20 @@ header nav a.active {
 #home h1 {
     font-size: 68px;
     font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+#home .divide {
+    width: 80px;
+    border-top: 5px solid #fed136;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
 #home p {
     font-size: 24px;
+    margin-top: 40px;
 }
 
 #home .social {
