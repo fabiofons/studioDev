@@ -14,7 +14,10 @@ body {
 }
 
 header {
+    position: fixed;
     padding: 10px 0;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.5);
 }
 
 header img {
@@ -102,6 +105,12 @@ section h2 {
     padding: 10px;    
     text-align: center;
 }
+/* sección de video */
+
+#video {
+    background-color: #000;
+    text-align: center;
+}
 
 /* sección de portafolio */
 
@@ -124,6 +133,58 @@ section h2 {
 #portafolio .box p {
     color: #666;
     padding: 10px;
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #303030;
+    background-image: url('../images/map-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;    
+}
+
+#contacto h2 {
+    color: #fff;
+}
+
+#contacto input {
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#contacto textarea {
+    margin: 20px 0;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#contacto button {
+    padding: 20px 40px;
+    background-color: #fed136;
+    border: 1px solid #dfaf02;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 18px;
+}
+/* mapas */
+
+#mapa h2 {
+    margin-bottom: 20px;
+}
+
+/* caracterizacion del footer */
+
+footer {
+    text-align: center;
+    padding: 70px 0;
+    font-size: 18px;
 }
 
 /* Caracteristica general de los contenedores */
