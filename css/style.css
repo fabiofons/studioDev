@@ -186,7 +186,9 @@ section h2 {
     font-weight: bold;
     line-height: 1;
     font-size: 18px;
+    cursor: pointer;
 }
+
 /* mapas */
 
 #mapa h2 {
